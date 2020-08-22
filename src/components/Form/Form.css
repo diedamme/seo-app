@@ -1,0 +1,17 @@
+.text-area-from-del{
+    width: 45%;
+    margin: 0 1%;
+    display: inline-block;
+}
+
+.text-area-from-del textarea{
+    height: 200px;
+}
+
+@media screen and (max-width: 767px){
+    .text-area-from-del{
+        width: 95%;
+        margin: 0 1%;
+        display: block;
+    }
+}
