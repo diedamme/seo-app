@@ -1,7 +1,6 @@
 import React from "react";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Home from "./pages/Home";
-import About from "./pages/About";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Unicl from "./pages/Unicl";
@@ -21,7 +20,6 @@ function App() {
             <Route path={"/add-phrase"} component={AddPhrase} />
             <Route path={"/leave-or-remove"} component={LeaveOrRemove} />
             <Route path={"/phrase-conversion"} component={PhraseConversion} />
-            <Route path={"/about"} component={About} />
           </Switch>
         </div>
         <Footer />

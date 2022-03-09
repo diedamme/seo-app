@@ -1,9 +1,10 @@
 import React from "react";
 
 const InputRadio = (props) => {
-  const idInput = `exampleRadios${+props.key}`;
-  const valueInput = `option${+props.key}`;
-  const forLabel = `exampleRadios${+props.key}`;
+  const idInput = `exampleRadios${+props.index}`;
+  const valueInput = `option${+props.index}`;
+  const forLabel = `exampleRadios${+props.index}`;
+  console.log(props.key);
   return (
     <div class="form-check disabled" key={props.key}>
       <input

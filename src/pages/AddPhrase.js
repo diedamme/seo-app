@@ -51,12 +51,12 @@ const AddPhrase = () => {
         />
 
         <InputRadio
-          key="1"
+          index="1"
           onClick={() => setCheckedFromEnd(false)}
           label="В начало"
         />
         <InputRadio
-          key="2"
+          index="2"
           onClick={() => setCheckedFromEnd(true)}
           label="В конец"
           checked={checkedFromEnd}

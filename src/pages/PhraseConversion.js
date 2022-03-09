@@ -49,22 +49,22 @@ const PhraseConversion = () => {
           onChange={(event) => setListResult(event.target.value)}
         />
         <InputRadio
-          key="1"
+          index="1"
           onClick={() => setmodeSelection("")}
           label="С заглавной буквы"
-          checked={modeSelection == "" ? true : false}
+          checked={modeSelection === "" ? true : false}
         />
         <InputRadio
-          key="2"
+          index="2"
           onClick={() => setmodeSelection("toUpperCase")}
           label="В верхний регистр"
-          checked={modeSelection == "toUpperCase" ? true : false}
+          checked={modeSelection === "toUpperCase" ? true : false}
         />
         <InputRadio
-          key="3"
+          index="3"
           onClick={() => setmodeSelection("toLowerCase")}
           label="В нижний регистр"
-          checked={modeSelection == "toLowerCase" ? true : false}
+          checked={modeSelection === "toLowerCase" ? true : false}
         />
         <br />
         <div className="form-group text-area-from-del">

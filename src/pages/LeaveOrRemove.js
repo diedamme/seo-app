@@ -60,13 +60,13 @@ const LeaveOrRemove = () => {
           onChange={(event) => setListResult(event.target.value)}
         />
         <InputRadio
-          key="1"
+          index="1"
           onClick={() => setCheckedLeave(true)}
           label="Оставить фразы"
           checked={checkedLeave}
         />
         <InputRadio
-          key="2"
+          index="2"
           onClick={() => setCheckedLeave(false)}
           label="Удалить фразы"
         />

@@ -36,12 +36,6 @@ const Navbar = () => (
           Преобразование фраз
         </NavLink>
       </li>
-
-      <li className="nav-item">
-        <NavLink className="nav-link" to="/about">
-          Справка
-        </NavLink>
-      </li>
     </ul>
   </nav>
 );
